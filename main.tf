@@ -2,6 +2,7 @@ provider "aws" {
   region = "eu-north-1"
 }
 
+
 provider "random" {}
 
 data "aws_availability_zones" "available" {}
